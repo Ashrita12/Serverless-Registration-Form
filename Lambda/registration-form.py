@@ -2,7 +2,7 @@ import json
 import boto3
 
 dynamodb = boto3.resource('dynamodb')
-table = dynamodb.Table('awsproject')
+table = dynamodb.Table('registration-form-function')
 
 def lambda_handler(event, context):
     # Get request body
